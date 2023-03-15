@@ -1,0 +1,4 @@
+<launch>
+    <node name="converter" pkg="optitrack_converter" type="optitrack_converter.py"/>
+    <node name="control" pkg="control" type="single_point.py"/>
+</launch>
